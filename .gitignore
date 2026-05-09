@@ -76,3 +76,17 @@ jspm_packages/
 
 # Yarn Integrity file
 .yarn-integrity
+
+# --- Security: Secrets ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+credentials/
+secrets/
+.htpasswd
+*.secret
+s.env.yaml

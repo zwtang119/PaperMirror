@@ -133,6 +133,16 @@ export const ANALYSIS_MODE: AnalysisMode = 'full'; // 或 'none' 或 'fidelityOn
 
 ---
 
+## 📚 项目文档
+
+本项目采用三仓库架构：
+
+- **PaperMirror-App**（本仓库）：国际版前端
+- **PaperMirror-GLM**：国内版前端
+- **PaperMirror-Server**：后端服务（闭源）
+
+详细的项目文档、路线图和架构决策请参阅 PaperMirror-Server 仓库。
+
 ## 📄 许可证
 
 MIT License. 免费供学术和个人使用。
